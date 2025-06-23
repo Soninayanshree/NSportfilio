@@ -6,8 +6,8 @@ import profile from '../assets/profileimg.png'; // Add your image file here
 const Home = () => {
   return (
     <>
-      <section id='home' className="min-h-screen bg-[#1b1b1e] ">
-        <div className="min-h-[65vh]  flex flex-col md:flex-row justify-center md:justify-around items-center md:items-end bg-[#1b1b1e] px-4 text-center md:text-left mt-0 sm:mt-20 space-y-6 md:space-y-0 ">
+      <section id='home' className="min-h-screen bg-[#0f0f10] pt-20">
+        <div className="min-h-[65vh]  flex flex-col md:flex-row justify-center md:justify-around items-center md:items-end  px-4 text-center md:text-left  space-y-6 md:space-y-0 ">
           <div>
             <motion.h1
               className="text-3xl sm:text-4xl md:text-6xl font-extrabold text-[#d8dbe2] mb-4"

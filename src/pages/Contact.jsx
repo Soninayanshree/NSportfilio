@@ -5,24 +5,24 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="min-h-screen bg-gradient-to-br from-[#0f0f10] to-[#1a1a2e] flex items-center justify-center px-4 py-16"
+      className="min-h-screen bg-gradient-to-br from-[#1b1b1e] to-[#0f0f10] flex items-center justify-center px-4 py-16"
     >
       <motion.div
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
         viewport={{ once: true }}
-        className="bg-[#121217] border border-[#2a2a40] shadow-xl rounded-3xl p-8 max-w-xl w-full text-white space-y-6"
+        className="bg-[#0f0f10] border border-[#2a2a40] shadow-xl rounded-3xl p-8 max-w-xl w-full text-white space-y-6"
       >
         <h2 className="text-3xl font-bold text-[#58a4b0] text-center">
           Let's Talk 👋
         </h2>
-        <p className="text-[#a9bcd0] text-center text-sm">
+        <p className="text-[#d8dbe2] text-center text-sm">
           Fill out the fields like you're sending a message to a friend.
         </p>
 
         <div className="space-y-5">
-          <div className="bg-[#1f1f29] p-4 rounded-xl">
+          <div className="bg-[#1b1b1e] p-4 rounded-xl">
             <p className="text-[#d8dbe2] text-sm">👤 What should I call you?</p>
             <input
               type="text"
@@ -31,7 +31,7 @@ const Contact = () => {
             />
           </div>
 
-          <div className="bg-[#1f1f29] p-4 rounded-xl">
+          <div className="bg-[#1b1b1e] p-4 rounded-xl">
             <p className="text-[#d8dbe2] text-sm">📧 What's your email address?</p>
             <input
               type="email"
@@ -40,7 +40,7 @@ const Contact = () => {
             />
           </div>
 
-          <div className="bg-[#1f1f29] p-4 rounded-xl">
+          <div className="bg-[#1b1b1e] p-4 rounded-xl">
             <p className="text-[#d8dbe2] text-sm">💬 What would you like to say?</p>
             <textarea
               rows={4}

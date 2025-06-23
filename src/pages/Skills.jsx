@@ -78,7 +78,7 @@ const SkillCircle = ({ skill }) => {
 
 const Skills = () => {
   return (
-    <section id="skills" className="bg-[#1b1b1e] text-white py-16 px-4 ">
+    <section id="skills" className="bg-[#0f0f10] text-white py-16 px-4  ">
       <div className="max-w-5xl mx-auto">
         <h2 className="text-4xl font-bold text-center text-[#58a4b0] mb-12">
           My Skills

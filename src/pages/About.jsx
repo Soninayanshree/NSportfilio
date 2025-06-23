@@ -1,10 +1,12 @@
-
 import React from "react";
 import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <section id="about" className="min-h-screen flex  bg-[#1b1b1e] text-[#D8DBE2]  px-6 md:px-20 pt-20" >
+    <section
+      id="about"
+      className="h-auto flex  bg-[#0f0f10] text-[#D8DBE2]  px-6 py-4 md:px-20 pt-20"
+    >
       <div className="max-w-6xl mx-auto">
         {/* Heading */}
         <motion.h2
@@ -21,12 +23,22 @@ const About = () => {
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
-            className="bg-[#373F51] rounded-2xl p-8 shadow-xl"
+            className="bg-[#1b1b1e] rounded-2xl p-8 shadow-xl"
           >
             <p className="text-[#D8DBE2] text-lg leading-relaxed mb-6">
-              Hello! I'm a creative developer with a passion for design, performance,
-              and clean code. I love building intuitive interfaces that feel great to use,
-              and I'm always learning something new to stay ahead in tech.
+              Hello! I’m Nayanshree Soni, a B.Tech graduate in Information
+              Technology with a strong interest in building functional and
+              user-friendly digital solutions. I have developed a solid
+              foundation in HTML, CSS, Java, and JavaScript, and I also have
+              hands-on experience working with React. To further strengthen my
+              skills, I completed a professional training program in MERN Stack
+              development at Makerspace Technology (BECIL). This experience
+              enhanced my ability to work on full-stack applications and
+              deepened my understanding of modern web development tools and
+              practices. I'm passionate about writing clean, efficient code and
+              enjoy turning ideas into real-world projects. I thrive on
+              challenges and am always eager to learn, grow, and contribute to
+              meaningful work.
             </p>
 
             {/* Buttons */}
@@ -53,4 +65,3 @@ const About = () => {
 };
 
 export default About;
-
