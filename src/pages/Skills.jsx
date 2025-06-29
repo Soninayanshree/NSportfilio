@@ -9,9 +9,6 @@ import viteImg from "../assets/vite.png";
 import gitImg from "../assets/git2.png";
 import githubImg from "../assets/github.png";
 
-
-
-
 const skills = [
   { name: "HTML", level: 90, image: htmlImg },
   { name: "CSS", level: 85, image: cssImg },
@@ -22,9 +19,7 @@ const skills = [
   { name: "Vite", level: 70, image: viteImg },
   { name: "Git", level: 70, image: gitImg },
   { name: "Github", level: 70, image: githubImg },
-
-
-
+  
 ];
 
 const SkillCircle = ({ skill }) => {
@@ -37,7 +32,7 @@ const SkillCircle = ({ skill }) => {
   return (
     <div className="flex flex-col items-center gap-2 w-32">
       <div className="relative">
-        <svg height={80} width={80} className="-rotate-90">
+        <svg height={80} width={80} className="">
           <circle
             stroke="#333"
             fill="transparent"
@@ -56,7 +51,7 @@ const SkillCircle = ({ skill }) => {
             cx={radius}
             cy={radius}
             animate={{ strokeDashoffset: offset }}
-            transition={{ duration: 2.5, ease: "easeOut"}}
+            transition={{ duration: 2.5, ease: "easeOut",repeat:Infinity , repeatType:"mirror"}}
           />
         </svg>
         {/* Skill image in center */}
@@ -94,3 +89,5 @@ const Skills = () => {
 };
 
 export default Skills;
+
+
