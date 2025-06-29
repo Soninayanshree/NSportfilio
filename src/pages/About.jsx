@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import resume from "../assets/NayanshreeResume.pdf";
 
 const About = () => {
   return (
@@ -37,8 +38,10 @@ const About = () => {
           {/* Buttons */}
           <div className="flex flex-col sm:flex-row gap-4">
             <a
-              href="/cv.pdf"
+              href={resume}
               download
+              target="_blank"
+              rel="noopener noreferrer"
               className="border border-[#58A4B0] text-[#58A4B0] px-6 py-2 rounded-full hover:bg-[#58A4B0] hover:text-[#1B1B1E] transition text-center"
             >
               Download CV
