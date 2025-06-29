@@ -12,12 +12,12 @@ import githubImg from "../assets/github.png";
 const skills = [
   { name: "HTML", level: 90, image: htmlImg },
   { name: "CSS", level: 85, image: cssImg },
-  { name: "JavaScript", level: 80, image: jsImg },
+  { name: "JavaScript", level: 70, image: jsImg },
   { name: "React", level: 75, image: reactImg },
   { name: "Java", level: 70, image: javaImg },
-  { name: "tailwind CSS", level: 70, image: tailwindcssImg },
-  { name: "Vite", level: 70, image: viteImg },
-  { name: "Git", level: 70, image: gitImg },
+  { name: "tailwind CSS", level: 60, image: tailwindcssImg },
+  { name: "Vite", level: 75, image: viteImg },
+  { name: "Git", level: 50, image: gitImg },
   { name: "Github", level: 70, image: githubImg },
   
 ];

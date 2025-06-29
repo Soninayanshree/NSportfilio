@@ -27,7 +27,7 @@ const Footer = () => {
           className="flex space-x-6 text-[#a9bcd0] text-xl"
         >
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/Soninayanshree"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-[#58a4b0] transition"
@@ -35,7 +35,7 @@ const Footer = () => {
             <FaGithub />
           </a>
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://www.linkedin.com/in/nayanshree-soni-8070b42a9/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-[#58a4b0] transition"
@@ -43,13 +43,13 @@ const Footer = () => {
             <FaLinkedin />
           </a>
           <a
-            href="mailto:youremail@example.com"
+            href="mailto:soninayanshree08@gmail.com"
             className="hover:text-[#58a4b0] transition"
           >
             <FaEnvelope />
           </a>
           <a
-            href="https://instagram.com/yourusername"
+            href="https://www.instagram.com/nayanshree_08?utm_source=qr&igsh=azdxOTcydjhwemNh "
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-[#58a4b0] transition"
