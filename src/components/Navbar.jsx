@@ -47,7 +47,7 @@ function Navbar() {
       {/* Mobile Menu */}
       {menuOpen && (
         <motion.div
-          className="md:hidden bg-[#1b1b1e] px-4 pb-4 pt-2 space-y-2 shadow-md"
+          className="md:hidden px-4 pb-4 pt-2 space-y-2 shadow-md"
           initial={{ height: 0, opacity: 0 }}
           animate={{ height: 'auto', opacity: 1 }}
           transition={{ duration: 0.3 }}
@@ -57,7 +57,7 @@ function Navbar() {
               key={item}
               href={`#${item}`}
               onClick={() => setMenuOpen(false)}
-              className="block text-[#d8dbe2] hover:text-[#58a4b0] border-b py-2"
+              className="block text-[#d8dbe2] hover:text-[#58a4b0] px-2 py-1 border-b-2 border-transparent hover:border-[#58a4b0] "
             >
               {item.charAt(0).toUpperCase() + item.slice(1)}
             </a>
