@@ -17,7 +17,7 @@ const skills = [
   { name: "Java", level: 70, image: javaImg },
   { name: "tailwind CSS", level: 60, image: tailwindcssImg },
   { name: "Vite", level: 75, image: viteImg },
-  { name: "Git", level: 50, image: gitImg },
+  { name: "Git", level: 60, image: gitImg },
   { name: "Github", level: 70, image: githubImg },
   
 ];

@@ -7,6 +7,7 @@ import Skills from "./pages/Skills";
 import Projects from "./pages/Projects"
 import Contact from "./pages/Contact"
 import Footer from "./components/Footer";
+import Qualification from "./pages/Qualification";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Navbar />
       <Home/>
       <About/>
+      <Qualification/>
       <Skills/>
       <Projects/>
       <Contact/>
